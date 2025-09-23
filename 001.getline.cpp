@@ -7,9 +7,9 @@ int main() {
     cout<<"Enter your name : ";
     
     // cin>>str;
-
+    // getline() function is used to take input with spaces until the newline character is encountered.
     getline(cin,str);
     
-    cout<<"HEllo "<<str<<"\n";
+    cout<<"Hello "<<str<<"\n";
     return 0;
 }
