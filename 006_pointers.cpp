@@ -30,3 +30,10 @@ int main() {
 // 4. Data Structures: Pointers are essential for implementing complex data structures like linked lists, trees, and graphs.    
 // 5. System Resources: Pointers are used in low-level programming to interact with system resources and hardware directly.
 // Note: Always ensure that pointers are initialized before use and avoid dereferencing null or uninitialized pointers to prevent undefined behavior.
+
+// Problems with pointers:
+// 1. Dangling Pointers: Pointers that point to memory that has already been freed or deallocated.
+// 2. Memory Leaks: Failing to free dynamically allocated memory can lead to memory leaks, which can exhaust system memory over time.
+// 3. Pointer Arithmetic Errors: Incorrect calculations when performing arithmetic on pointers can lead to accessing invalid memory locations.
+// 4. Null Pointer Dereferencing: Dereferencing a null pointer leads to undefined behavior and program crashes.
+// 5. Uninitialized Pointers: Using pointers that have not been initialized can lead to unpredictable behavior and hard-to-trace bugs.
